@@ -6,9 +6,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "test":"vue-cli-service lint",
     "prettier": "prettier --write .",
     "prepare": "husky install",
-    "commit":"cz"
+    "commit": "cz"
   },
   "dependencies": {
     "core-js": "^3.6.5",
