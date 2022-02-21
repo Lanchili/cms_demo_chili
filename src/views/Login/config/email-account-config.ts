@@ -1,6 +1,6 @@
 // 编写好规则
 export const rules = {
-  name: [
+  email: [
     {
       required: true,
       message: '用户名是必传内容~',
@@ -9,7 +9,7 @@ export const rules = {
     {
       // pattern: /^[a-z0-9]{5,10}$/,
       type: 'email',
-      message: '用户名必须是5~10个字母或者数字~',
+      message: '用户名必须是邮箱',
       trigger: 'blur'
     }
   ],

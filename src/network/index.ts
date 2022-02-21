@@ -16,7 +16,7 @@ const ljRequest1 = new LJRequest({
         Object.assign(temp, tempHeaders)
         config.headers = temp
       }
-      console.log('所有的ljRequest1都有的响应')
+      //console.log('所有的ljRequest1都有的响应')
       //console.log(config)
 
       return config
@@ -25,7 +25,7 @@ const ljRequest1 = new LJRequest({
       return err
     },
     responseInterceptor: (res) => {
-      console.log('所有的ljRequest1 的 response拦截器')
+      //console.log('所有的ljRequest1 的 response拦截器')
 
       return res
     },
